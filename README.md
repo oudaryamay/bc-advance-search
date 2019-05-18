@@ -2,7 +2,7 @@
 
 ***
 
-# >  [Click Here To Download](https://wordpress.org/plugins/bc-advance-search/)
+# >  [Go to WordPress Plugin](https://wordpress.org/plugins/bc-advance-search/)
 
 ## About
 
@@ -68,6 +68,17 @@ Please follow there easy steps to install the plugin
 > Can I uninstall this plugin anytime?
 > Yes! you can uninstall it anytime, simply goto plugin section of your admin panel, if not deactivated, first deactivate and delete the plugin named "Bigcommerce Advance Search".
 
-> [Click Here To Download](https://wordpress.org/plugins/bc-advance-search/)
+# Changelog
+
+## 1.0
+* Initial release.
+
+## 1.1
+* Search result appears on mouse or keyboard event.
+* Added loader for details search result appearance.
+* Some design changes to make it more beatuful.
+* Some minor bugs solve.
+
+> [Go to WordPress Plugin](https://wordpress.org/plugins/bc-advance-search/)
 
 
