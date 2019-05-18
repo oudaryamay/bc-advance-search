@@ -1,0 +1,80 @@
+/**
+ * Bigcommerce admin css
+ *
+ * @since 1.0.0
+ */
+ .bas-main-heading  {
+	margin: 1em 0 0.5em 0;
+	font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;  
+	font-size: 36px;
+	line-height: 40px;
+	padding: 15px 15px 15px 15%;
+	color: #355681;
+	box-shadow: 
+		inset 0 0 0 1px rgba(53,86,129, 0.4), 
+		inset 0 0 5px rgba(53,86,129, 0.5),
+		inset -285px 0 35px white;
+	border-radius: 0 10px 0 10px;
+	text-align: center;
+	}
+	
+	.bas-main-subheading {
+	margin: 1em 0 0.5em 0;
+	font-weight: normal;
+	position: relative;
+	text-shadow: 0 -1px rgba(0,0,0,0.6);
+	font-size: 20px;
+	line-height: 40px;
+	background: #355681;
+	background: rgba(53,86,129, 0.8);
+	border: 1px solid #fff;
+	padding: 5px 15px;
+	color: white;
+	border-radius: 0 10px 0 10px;
+	box-shadow: inset 0 0 5px rgba(53,86,129, 0.5);
+	font-family: 'Muli', sans-serif;
+}
+	.bas-main-subheading a {
+    text-decoration-color: #fff;
+    color: #fff;
+	}
+
+	.basConatiner form h2{
+	margin: 1em 0 0.5em 0;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;
+	line-height: 40px;
+	color: #355681;
+	text-transform: uppercase;
+	border-bottom: 1px solid rgba(53,86,129, 0.3);
+}
+
+.basConatiner table th {
+	margin: 1em 0 0.5em 0;
+	font-weight: 400;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;
+	font-size: 15px;
+	line-height: 20px;
+	color: #788699;
+	font-family: 'Muli', sans-serif;
+}
+
+.basConatiner table td {
+	margin: 1em 0 0.5em 0;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;
+	font-size: 15px;
+	line-height: 20px;
+	color: #788699;
+	font-family: 'Muli', sans-serif;
+}
+.basConatiner.bas-table td select,input[type=text],textarea{
+	color:#788699;
+}
+
+/* .basConatiner.bas-table td select,input[type=text]{
+	width: 98%;
+}  */
