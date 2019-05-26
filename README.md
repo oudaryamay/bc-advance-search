@@ -1,3 +1,5 @@
+[![WP compatibility](https://plugintests.com/plugins/bc-advance-search/wp-badge.svg)](https://plugintests.com/plugins/bc-advance-search/latest)
+[![PHP compatibility](https://plugintests.com/plugins/bc-advance-search/php-badge.svg)](https://plugintests.com/plugins/bc-advance-search/latest)
 ![bc-advance-search/](https://ps.w.org/bc-advance-search/assets/banner-772x250.png)
 
 ***
