@@ -1,12 +1,26 @@
 /**
  * Bigcommerce shortcode form css
  *
- * @since 1.1.0
+ * @since 1.0
+ * @modified 1.1
+ * @modified 1.2
  */
 
 .bas-search-form .search-form {
 	margin: auto;
 }
+
+/* dynamic css start */
+.basPositionCenter {
+	display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+.basPositionRight {
+	position: relative;
+	float: right;
+}
+/* dynamic css end */
 
 .bas-search-form .button-search {
 	position: absolute;

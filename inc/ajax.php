@@ -2,7 +2,8 @@
 /**
  * Bigcommerce Live Search Ajax
  *
- * @since 1.1.0
+ * @since 1.0
+ * @modified 1.1
  */
 if ( ! defined( 'ABSPATH' ) ) {
 	die( 'Access denied.' );

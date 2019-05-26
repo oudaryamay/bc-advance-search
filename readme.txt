@@ -5,9 +5,9 @@ Author: Oudaryamay Burai
 Tags: bigcommerce, search, advance, wordpress
 Author URI: https://oudarya.wordpress.com/
 Requires at least: 2.9.0
-Tested up to: 5.2
-Stable tag: 1.1
-Version: 1.1
+Tested up to: 5.2.1
+Stable tag: 1.2
+Version: 1.2
 Donate link: https://www.paypal.me/OBurai
 License: GPLv2 or later
 
@@ -71,6 +71,11 @@ Yes! you can uninstall it anytime, simply goto plugin section of your admin pane
 * Added loader for details search result appearance.
 * Some design changes to make it more beatuful.
 * Some minor bugs solve.
+
+## 1.2
+* Show automatically option in plugins settings.
+* Added design settings in back-end, from where you can change basic style of search box.
+* Bugs solve and code improve
 
 == Upgrade Notice ==
 We are adding additional functionality to this plugin soon...

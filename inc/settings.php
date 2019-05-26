@@ -2,7 +2,8 @@
 /**
  * Bigcommerce Advance search admin page
  *
- * @since 1.1.0
+ * @since 1.0
+ * @modified 1.1
  */
 if ( ! defined( 'ABSPATH' ) ) {
 	die( 'Access denied.' );
@@ -30,11 +31,19 @@ class BigcommerceAdvanceSearch {
 	}
 
 	public function bigcommerce_advance_search_create_admin_page() {
+		wp_enqueue_style('admin-design-dynamic-style');
 		$this->bigcommerce_advance_search_options = get_option( 'bigcommerce_advance_search_option_name' ); ?>
 
 		<div class="wrap basConatiner">
 			<h2 class="bas-main-heading">::: Bigcommerce Advance Search :::</h2>
 			<p class="bas-main-subheading">It provides you extra search facilities. Use <input style="background-color:white; border:1px white solid; color:green; font-weight: bold; width: 148px;" onclick="this.select();" value="[bc-advance-search]" readonly> shortcode to your post/page or you can use <a href="<?php admin_url(); ?>widgets.php">widget.</a></p>
+			
+			<a href="<?php echo admin_url('admin.php?page=bas-design-settings'); ?>">
+				<div class="chip">
+				  <img src="https://ps.w.org/bc-advance-search/assets/icon-256x256.png" alt="bc-advance-search" width="96" height="96">
+				  <span>Change Design!</span>
+				</div>
+			</a>
 
 			<?php settings_errors(); ?>
 

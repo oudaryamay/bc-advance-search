@@ -2,6 +2,7 @@
  * Bigcommerce admin css
  *
  * @since 1.0.0
+ * @modified 1.2
  */
  .bas-main-heading  {
 	margin: 1em 0 0.5em 0;
@@ -45,10 +46,11 @@
 	margin: 1em 0 0.5em 0;
 	font-family: 'Titillium Web', sans-serif;
 	position: relative;
-	line-height: 40px;
+	line-height: 42px;
 	color: #355681;
 	text-transform: uppercase;
 	border-bottom: 1px solid rgba(53,86,129, 0.3);
+	overflow: hidden;
 }
 
 .basConatiner table th {
